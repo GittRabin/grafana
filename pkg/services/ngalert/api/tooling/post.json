@@ -2645,6 +2645,7 @@
    "type": "object"
   },
   "PostableApiAlertingConfig": {
+   "description": "nolint:revive",
    "properties": {
     "global": {
      "$ref": "#/definitions/GlobalConfig"
@@ -2688,6 +2689,7 @@
    "type": "object"
   },
   "PostableApiReceiver": {
+   "description": "nolint:revive",
    "properties": {
     "discord_configs": {
      "items": {
@@ -4596,7 +4598,6 @@
    "type": "object"
   },
   "alertGroup": {
-   "description": "AlertGroup alert group",
    "properties": {
     "alerts": {
      "description": "alerts",
@@ -4620,6 +4621,7 @@
    "type": "object"
   },
   "alertGroups": {
+   "description": "AlertGroups alert groups",
    "items": {
     "$ref": "#/definitions/alertGroup"
    },
@@ -4724,6 +4726,7 @@
    "type": "object"
   },
   "gettableAlert": {
+   "description": "GettableAlert gettable alert",
    "properties": {
     "annotations": {
      "$ref": "#/definitions/labelSet"
@@ -4835,7 +4838,6 @@
    "type": "object"
   },
   "gettableSilences": {
-   "description": "GettableSilences gettable silences",
    "items": {
     "$ref": "#/definitions/gettableSilence"
    },
